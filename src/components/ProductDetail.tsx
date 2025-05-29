@@ -10,7 +10,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
   return (
     <>
       <div className="grid md:grid-cols-2 gap-6">
-        {/* Images */}
         <div>
           <img
             src={product.thumbnail}
@@ -29,7 +28,6 @@ export default function ProductDetail({ product }: ProductDetailProps) {
           </div>
         </div>
 
-        {/* Info */}
         <div className="flex flex-col justify-between">
           <div>
             <h1 className="text-3xl font-bold mb-2 text-pink-700">
